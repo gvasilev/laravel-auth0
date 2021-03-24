@@ -1,5 +1,5 @@
 {
-    "name": "gvasilev/login",
+    "name": "gvasilev/laravel-auth0",
     "description": "Laravel plugin that helps authenticate with the Auth0 service",
     "license": "MIT",
     "require": {
