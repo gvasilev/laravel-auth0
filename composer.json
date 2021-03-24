@@ -1,5 +1,5 @@
 {
-    "name": "gvasilev/laravel-auth0",
+    "name": "gvasilev/login",
     "description": "Laravel plugin that helps authenticate with the Auth0 service",
     "license": "MIT",
     "require": {
@@ -56,5 +56,16 @@
                 "Auth0": "Auth0\\Login\\Facade\\Auth0"
             }
         }
-    }
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "optimize-autoloader": true
+    },
+    "repositories": [{
+        "type": "vcs",
+        "url": "https://github.com/gvasilev/auth0-php"
+    }],
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
